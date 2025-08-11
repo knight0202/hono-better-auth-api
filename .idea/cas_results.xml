@@ -15,7 +15,9 @@
         </entry>
         <entry key="SECRETS">
           <value>
-            <list />
+            <list>
+              <option value="e122f2bd-3e55-467d-932d-ae6a174a402d" />
+            </list>
           </value>
         </entry>
         <entry key="LICENSES">
@@ -39,6 +41,70 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="files">
+      <map>
+        <entry key="$PROJECT_DIR$/.env">
+          <value>
+            <list>
+              <option value="e122f2bd-3e55-467d-932d-ae6a174a402d" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="results">
+      <map>
+        <entry key="e122f2bd-3e55-467d-932d-ae6a174a402d">
+          <value>
+            <ScanResult>
+              <option name="codeAnnotation">
+                <map>
+                  <entry key="3">
+                    <value>
+                      <ScanResultCodeAnnotation>
+                        <option name="row" value="3" />
+                        <option name="text" value="DATABASE_URL=&quot;postgresql://postgres:pa**********@localhost:5432/postgres?schema=public&quot;" />
+                        <option name="displayType" value="INFO" />
+                      </ScanResultCodeAnnotation>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="documentation" value="https://docs.prismacloud.io/en/enterprise-edition/policy-reference/secrets-policies/secrets-policy-index/git-secrets-4" />
+              <option name="platformCheckId" value="BC_GIT_4" />
+              <option name="suppressible" value="true" />
+              <option name="id" value="e122f2bd-3e55-467d-932d-ae6a174a402d" />
+              <option name="category" value="SECRETS" />
+              <option name="framework" value="SECRETS" />
+              <option name="checkId" value="CKV_SECRET_4" />
+              <option name="checkName" value="Basic Auth Credentials" />
+              <option name="resultName" value="Basic Auth Credentials" />
+              <option name="popupTitle" value="Basic Auth Credentials" />
+              <option name="resource" value="5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8" />
+              <option name="lineRange">
+                <Range>
+                  <option name="end" value="4" />
+                  <option name="start" value="3" />
+                </Range>
+              </option>
+              <option name="fileDetails">
+                <ScanResultFileDetails>
+                  <option name="absolutePath" value="$PROJECT_DIR$/.env" />
+                  <option name="relativePath" value="/.env" />
+                  <option name="fileName" value=".env" />
+                  <option name="extension" value=".env" />
+                </ScanResultFileDetails>
+              </option>
+            </ScanResult>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="summary">
+      <ScanSummary>
+        <option name="failed" value="1" />
+      </ScanSummary>
     </option>
   </component>
 </project>
